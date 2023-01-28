@@ -1,0 +1,393 @@
+/* Autor: Nestor Fabricio Campos */
+
+p, li, span {
+    color: white;
+    width: 80%;
+    overflow: visible;
+}
+
+h1 {
+    width: 75%;
+    border: 3px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 30px 20px 25px 15px;
+    font-weight: bold;
+    color: grey;
+}
+
+h3 {
+  width: 75%;
+  margin-left: 20px;
+}
+
+#datosPostulante {    
+    color:royalblue;
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;  
+}
+
+.contenedordatosPostulante {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: none;     
+    width: 97%;
+    border-color: brown;
+}
+
+.contenedorAnclaVolverArriba {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center; 
+  float: none;     
+  width: 97%;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 20px;
+      
+}
+
+a:link {
+  color: gold;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+#fotoPerfil{
+	float: right;
+  margin-right: 20px;
+  border: 2px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+  background-color:white;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4;
+  } 
+
+section {
+    margin-top: 25px;    
+    margin: auto;
+    width: 97%;
+    float:none;
+    border: 3px solid black;
+    padding: 50px;
+    background-color:darkcyan;     
+  }  
+
+article {
+    width: 90%;  
+    padding: 5px;
+}
+ 
+section h2, h4{
+    color: black;
+  } 
+
+footer {    
+    width: 97%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:darkcyan;
+    text-align: right;    
+  }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.justificarTextoArticulos {
+    text-align:justify;
+    font-size: 18px;
+}
+
+.Encabezado {
+    text-align: center;
+    margin-top: 20px;
+    width: 85%;
+    height: 65%;
+}
+
+#imprimirVersionArchivo {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  float: none;     
+  width: 97%;   
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#anclaIrArriba {
+  display: flex;
+  width: 98%;
+  font-size:large;
+  color:darkblue;
+  margin-right: 15px;
+  text-align: right;
+}
+
+
+/* ----------------------- Breakpoints ------------------------- Inicio */
+
+/* -------- Web Responsive Design -------- móviles ---- Inicio */
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+    
+  .Encabezado {
+    text-align: center;
+    margin-top: 30px;
+    width: 50%;   
+  }
+
+  section {
+      margin: auto;
+  }
+
+  footer {    
+    width: 97%;
+    border: 3px solid black;
+    padding: 10px;
+    margin: auto;
+    background-color:darkcyan;
+    text-align: right;    
+  }
+
+  #fotoPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: 2px solid black;
+    width: 30%;
+  }
+
+body::-webkit-scrollbar {
+  display: none; /* para Chrome, Safari, y Opera */
+}
+
+body {
+  -ms-overflow-style: none; /* para Internet Explorer, Edge */
+  scrollbar-width: none; /* para Firefox */
+  overflow-y: scroll; 
+}
+
+.Encabezado {  
+  font-size:large;
+}
+
+#datosPostulante {
+font-size:large;
+}
+
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 14px;
+}h4 {
+  font-size: 14px;
+}
+
+#anclaIrArriba {
+  font-size: 14px;  
+}
+
+#listasFuente {
+  font-size: 12px;
+}
+
+#imprimirVersionArchivo {
+  font-size: 14px;
+}
+
+#datosContactoFuente{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 97%;
+  margin: 0 auto; 
+  color: white;
+  font-size: 12px;
+  text-align:center;
+}
+
+}
+/* -------- Web Responsive Design -------- móviles ---- Fin */
+
+/* -------- Web Responsive Design -------- tablets ---- Inicio */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+footer {
+    
+    /*min-height: auto;*/
+    margin: auto;
+    border: 3px solid black;
+}
+
+section {
+  margin: auto;
+}
+
+.Encabezado {
+  text-align: center;
+  margin-top: 30px;
+  width: 70%; 
+}
+
+#fotoPerfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border: 2px solid black;
+  width: 25%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+  }
+
+}
+/* -------- Web Responsive Design -------- tablets ---- Fin */
+
+/* -------- Web Responsive Design -------- laptops ---- Inicio */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+#usuario {
+            align-items: center;
+}
+
+#datosPostulante {
+      align-items: center;
+}
+
+footer {
+    margin: auto;
+}
+
+}
+/* -------- Web Responsive Design -------- laptops ---- Fin */
+
+/* -------- Web Responsive Design -------- desktops ---- Inicio */
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+  #usuario {
+              align-items: center;
+  }
+  
+  #datosPostulante {
+        align-items: center;
+  }
+}
+/* -------- Web Responsive Design -------- desktops ---- Fin */
+
+/* -------- Web Responsive Design -------- desktops amplias ---- Inicio */
+
+@media only screen and (min-width: 1201px) {
+    
+  #usuario {
+              align-items: center;
+  }
+  
+  #datosPostulante {
+        align-items: center;
+  }
+}
+/* -------- Web Responsive Design -------- desktops amplias ---- Fin */
+
+/* ----------------------- Breakpoints ------------------------- Fin */
+
+
+/* -------- Contenedores para los íconos -------- Inicio */
+
+.contenedorIconos {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: (15, 15, 15, 15);
+}
+
+.contenedorUsuario {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  margin: 1em; 
+  padding: 2px;
+  border-color: black; 
+  float: none;
+}
+
+.contenedorTelefono {
+ display: flex;
+ justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  margin: 1em;  
+  padding: 2px; 
+  border-color: black;
+}
+
+.contenedorMail {
+ display: flex;
+ justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  margin: 1em;  
+  padding: 2px; 
+  border-color: black;
+}
+
+.contenedorUbicacion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  margin: 1em;  
+  padding: 2px; 
+  border-color: black;
+}
+
+.contenedorFechaNacimiento {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 10%;
+  margin: 1em; 
+  padding: 2px; 
+  border-color: black;
+}
+
+/* -------- Contenedores para los íconos -------- Fin */
